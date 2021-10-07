@@ -47,7 +47,7 @@ that respect the following specifications.
 - [ ] Delete a comment by It's ID
 
 ### Models:
-
+Please don't copy past this models, they are just here as an example.
 ```
 model User
   id: int ( or string if you use UUID )
@@ -61,7 +61,7 @@ model User
 model Post
   id: int
   author: User
-  comments: Post
+  comments: Post[]
   content: string
   createdAt: Date
   updatedAt: Date
