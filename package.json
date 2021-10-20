@@ -1,0 +1,36 @@
+{
+  "name": "learn.graphql",
+  "version": "1.0.0",
+  "description": "- [Rules](#rules) - [Overview](#overview) - [Story](#story) - [Resources](#resources) - [Credits](#credits)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nestuna/learn.graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nestuna/learn.graphql/issues"
+  },
+  "homepage": "https://github.com/Nestuna/learn.graphql#readme",
+  "dependencies": {
+    "apollo-server": "^3.4.0",
+    "graphql": "^15.6.1",
+    "nodemon": "^2.0.14",
+    "prisma": "^3.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4"
+  }
+}
